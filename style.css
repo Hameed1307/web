@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container for content alignment */
+.container {
+    width: 99%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Section styling */
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #d6d2d2;
+    background-color: #333;
+    color: #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+
